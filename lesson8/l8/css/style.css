@@ -1,0 +1,48 @@
+main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+table{
+    box-shadow: 5px 5px 15px #555;
+}
+
+table, th, td{
+    font-family: Ubuntu, sans-serif;
+    border: 1px solid #888;
+    border-collapse: collapse;
+    padding: .5em 1em;
+}
+
+thead tr th{
+    background-color: #65e5ff;
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+}
+
+tr:nth-child(6){
+    font-style: italic;
+}
+
+th{
+    background-color: #fa7ab6;
+    color: white;
+    font-size: 1.2em;
+}
+
+td{
+    background-color: #f1f8db;
+}
+
+tfoot td{
+    background-color: #65e5ff;
+    font-size: .8em;
+}
+
+.colored{
+    background-color: #4abaff;
+    color: white;
+    font-weight: bold;
+}
